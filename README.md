@@ -1,4 +1,4 @@
-# Atividade 7
+# Atividade 8
 
 
 ## Sumário 
@@ -21,22 +21,21 @@
 - <b>Atenção!</b> Escolhe apenas <b>UMA</b> das pastas para realizar a atividade! 
 
 ## Escopo da Atividade 🛠️
-Implementar uma classe que seja capaz de simular um relógio digital com ínumeros construtores
 
-![carbon (4)](https://github.com/franciscodouglas/atividade_7_sobrecarga/assets/98854868/e0357c68-0442-4efb-87c6-57de581d30fd)
+Implemente a classe <b> Aluno </b> seguinte:
 
-![carbon (5)](https://github.com/franciscodouglas/atividade_7_sobrecarga/assets/98854868/04fe331e-2d31-473c-a823-b5b0a1c6a060)
-
-![carbon (6)](https://github.com/franciscodouglas/atividade_7_sobrecarga/assets/98854868/15f5f490-947f-40d6-bf96-0bfbceea83cd)
+![image](https://user-images.githubusercontent.com/98854868/163733367-888d01ef-838a-43a8-9495-f05f9e382fe8.png)
 
 
-### Desafio
-- Garantir que os valores atribuídos para hora, minuto e segundo seja valores apropriados (ou validados), isto é:
-    - Hora: sendo superior e igual a 0 e inferior e igual a 23 (0 >= e <23) 
-    - Minuto: sendo superior e igual a 0 e inferior e igual a 59 (0 >= e < =59)
-    - Segundo: sendo superior e igual a 0 e inferior e igual a 59  (0 >= e < =59).
-- Utilizar um único objeto (chamado r) na classe Horario.
-- Sugestão: Declarar uma única vez e depois fazer as instâncias necessárias.
+Cria uma classe <b> main </b>:
+
+- Incluir a nota m1 e m2 (perceba que as mesmas estão em String);
+- Calcular a Média do Aluno (Converta os valores para realizar o calculo);
+- Utilize a classe Scanner para realizer o input das notas
+  - Scanner sc = new Scanner(System.in);
+  - String a = sc.nextLine();  //armazenar os valores
+- Exibir as notas e a média do aluno;
+
 
 ## No Microsoft Teams  👥
 
